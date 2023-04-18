@@ -1,0 +1,209 @@
+@media screen and (max-width: 1024px) {
+    .company-job-list {
+        width: 75%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .top-bar-left ul li a {
+        padding: 5px 8px;
+        font-size: 12px;
+    }
+
+    .nice-select {
+        width: auto;
+    }
+
+    .category-list {
+        margin-bottom: 20px;
+    }
+
+    .company-logo {
+        width: 45px;
+    }
+
+    .company-logo img {
+        width: 44px;
+        height: 44px;
+    }
+
+    .company-job-list {
+        width: 78%;
+    }
+
+    .login-text {
+        right: -17px;
+    }
+
+    .reg-widget .feat li {
+        display: block;
+        overflow: hidden;
+    }
+
+    .gender-padding {
+        padding: 0 15px !important;
+    }
+
+    .sidebar {
+        margin-bottom: 20px;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+    .logo img {
+        width: 91px;
+    }
+
+    .nice-select {
+        display: none;
+    }
+
+    .search-title {
+        margin-top: 20px;
+    }
+
+    .search-title h2 {
+        font-size: 22px;
+    }
+
+    .quick-search {
+        height: auto;
+        margin: 10px 0 20px;
+        display: block;
+        overflow: hidden;
+    }
+
+    .quick-search ul li {
+        float: left;
+        margin-right: 0px;
+    }
+
+    .quick-search ul li a span {
+        margin-left: 5px;
+    }
+
+    .category-title h2 {
+        display: block !important;
+        float: none !important;
+        text-align: center;
+    }
+
+    .category-title ul {
+        float: none !important;
+    }
+
+    .category-title ul.nav-pills li {
+        width: 50%;
+    }
+
+    .promo-slider .carousel-item img {
+        height: 174px;
+    }
+
+    .promo-slider .carousel-caption {
+        top: 10%;
+        bottom: auto;
+        padding-top: 10px;
+    }
+
+    .loginmenudropdown {
+        width: auto;
+    }
+
+    .loginmenudropdown .pr-2, .loginmenudropdown .pl-2 {
+        padding: 10px !important;
+    }
+
+    .login-text {
+        display: none;
+    }
+
+    .login-inner-form {
+        padding: 0;
+    }
+
+    .login-box-container {
+        height: auto;
+    }
+
+    .copyright.float-right {
+        float: none !important;
+    }
+
+    .copyright {
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .header-area .collapse.show {
+        margin-bottom: 15px;
+    }
+
+    .reg-type a {
+        width: 100%;
+    }
+
+    .social-login li a {
+        display: block;
+    }
+
+    .social-login li {
+        width: 100%;
+        float: none;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .login-inner-form h3 {
+        font-size: 20px;
+    }
+
+    .forgotpass {
+        padding-top: 0;
+        margin-bottom: 8px;
+    }
+
+    .loginbtn button {
+        width: 100%;
+    }
+
+    .hero-search {
+        min-height: 216px;
+    }
+
+    .hero-search-inner {
+        padding: 0 15px;
+        width: 100%;
+        height: 216px;
+    }
+
+    .sidebar-add-wrapper {
+        margin-top: 15px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .job-details-wrapper .details-category-wrapper {
+        text-align: left;
+        margin-bottom: 23px;
+    }
+
+    .search-sugggesion a {
+        width: 49%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+}
+
+@media screen and (max-width: 360px) {
+
+}
+
+@media screen and (max-width: 320px) {
+
+}

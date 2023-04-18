@@ -1,0 +1,19 @@
+version: "3.7"
+services:
+  api:
+    #user: "1000:root"
+    image: wafisoft/php:7.4
+    networks:
+      local-network:
+    container_name: job-api
+    restart: always
+    ports:
+      - '8018:8000'
+    volumes:
+      - ./:/var/www
+#      - ./docker/docker-php.ini:/usr/local/etc/php/conf.d/docker-php.ini
+    command: >
+      sh -c "php -S 0.0.0.0:8000 -t ./public"
+networks:
+  local-network:
+    external: true
